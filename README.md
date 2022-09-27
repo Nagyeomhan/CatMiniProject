@@ -1,23 +1,26 @@
 # CatMiniProject
 
 ## 1. 목적
-  반려동물의 행동을 분석하여 감정을 도출해보는 프로그램 구현
+  반려동물의 행동을 분석하여 감정을 도출해보는 프로그램을 구현하였습니다.
+  
+## 2. 사용 데이터
+  <a href='https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=59'>[AI-Hub] 반려동물 구분을 위한 동물 영상</a>
 
-## 2. 개발 환경
+## 3. 개발 환경
   (1) Seagate 1TB HDD 외장하드
   
   (2) GeForce RTX 1050 Ti
   
   (3) CUDA 11.7ver
   
-## 3. 사용 모델
+## 4. 사용 모델
   (1) Keypoint R-CNN
   
   (2) HRNet
   
   (3) ST-GCN
   
-## 4. 발표 자료 요약
+## 5. 발표 자료 요약
 ![화면 캡처 2022-09-27 101108](https://user-images.githubusercontent.com/108378151/192411012-0bcf2e17-8b2f-4f98-a939-d57781e14619.png)
 ![화면 캡처 2022-09-27 101126](https://user-images.githubusercontent.com/108378151/192411023-60e99115-843b-4526-b1ee-b9e74d9b1e5a.png)
 ![화면 캡처 2022-09-27 101143](https://user-images.githubusercontent.com/108378151/192411032-a59bfb7d-a08c-4b37-a10f-3d860f91ac9f.png)
