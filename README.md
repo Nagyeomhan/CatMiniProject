@@ -1,29 +1,32 @@
-# CatMiniProject
+# 반려묘 행동 분석 프로젝트
 
-## 1. 목적
-  반려동물의 행동을 분석하여 감정을 도출해보는 프로그램을 구현하였습니다.
-  
-## 2. 사용 데이터
-  <a href='https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=59'>[AI-Hub] 반려동물 구분을 위한 동물 영상</a>
+1. 프로젝트 목적 : 영상 업로드 시 반려묘의 행동을 분석해주는 시스템 구현
+2. 프로젝트 기간 : 약 10일
+3. 사용 데이터 : <a href='https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=59'>[AI-Hub] 반려동물 구분을 위한 동물 영상</a>
+4. 개발 환경<br>
+(1) Seagate 1TB HDD 외장하드<br>
+(2) GeForce RTX 1050 Ti<br>
+(3) CUDA 11.7 ver<br>
+(4) Google Colab GPU
+<br>
 
-## 3. 개발 환경
-  (1) Seagate 1TB HDD 외장하드
+## 사용 모델
+
+**1. Keypoint R-CNN**
+<br>
+Mask R-CNN 기반으로 이미지에 관절 포인트를 매칭하여 학습하는데 활용
+
+**2. HRNet**
+<br>
+관절 포인트별로 confidence score를 도출하는데 활용
+
+**3. ST-GCN**
+<br>
+관절 포인트를 기반으로 동작을 예측하는데 활용
+<br>
+<br>
   
-  (2) GeForce RTX 1050 Ti
-  
-  (3) CUDA 11.7ver
-  
-## 4. 사용 모델
-  (1) Keypoint R-CNN
-  
-  (2) HRNet
-  
-  (3) ST-GCN
-  
-## 5. 발표 자료 요약
-![화면 캡처 2022-09-27 101108](https://user-images.githubusercontent.com/108378151/192411012-0bcf2e17-8b2f-4f98-a939-d57781e14619.png)
-![화면 캡처 2022-09-27 101126](https://user-images.githubusercontent.com/108378151/192411023-60e99115-843b-4526-b1ee-b9e74d9b1e5a.png)
-![화면 캡처 2022-09-27 101143](https://user-images.githubusercontent.com/108378151/192411032-a59bfb7d-a08c-4b37-a10f-3d860f91ac9f.png)
+## 발표 자료 요약
 ![화면 캡처 2022-09-27 101159](https://user-images.githubusercontent.com/108378151/192411049-9bca0a3b-7f02-4bf1-8099-dff296001e7c.png)
 ![화면 캡처 2022-09-27 101244](https://user-images.githubusercontent.com/108378151/192411057-e206fe02-b660-423a-ab92-79fdda28f978.png)
 ![화면 캡처 2022-09-27 101300](https://user-images.githubusercontent.com/108378151/192411064-27ecc1ac-afc0-43a4-8a0c-b98b06ad54ff.png)
