@@ -6,7 +6,7 @@
 4. 사용 데이터 : <a href='https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=59'>[AI-Hub] 반려동물 구분을 위한 동물 영상</a>
 5. 개발 환경<br>
 (1) 주요 개발 언어 : Python<br>
-(2) 모델링 및 학습 ① : Seagate 1TB HDD 외장하드 / GeForce RTX 1050 Ti / CUDA 11.7 ver<br>
+(2) 모델링 및 학습 ① : GeForce RTX 1050 Ti / CUDA 11.7 ver<br>
 (3) 모델링 및 학습 ② : Google Colab GPU<br>
 <br>
 
